@@ -1,7 +1,5 @@
 <?php
-	
-	 // $connect = mysqli_connect("localhost","karrthik12","karrthik@12","chennai_univ");
-	 $connect = mysqli_connect("localhost","root","bismillah","sathya");
+	 $connect = mysqli_connect("localhost","root","","");
 	$formdata = json_decode(file_get_contents("php://input"));	
 	
 	if (count($formdata)>0)
